@@ -26,17 +26,17 @@ export const visualPresets = {
   },
   'luxury-atelier': {
     label: 'Luxury Atelier',
-    mood: 'premium, restrained, polished',
-    fontDirection: 'Cormorant Garamond headlines with Outfit body',
+    mood: 'premium editorial, restrained, polished',
+    fontDirection: 'Fraunces serif headlines with DM Sans body',
     colors: {
-      background: '#0c0e14',
-      foreground: '#f2efe8',
-      muted: '#97a0b3',
-      primary: '#d4a853',
-      accent: '#7f1d1d',
-      surface: '#1a2130',
+      background: '#fbf8f1',
+      foreground: '#22224a',
+      muted: '#5b5c7c',
+      primary: '#31326f',
+      accent: '#4fb7b3',
+      surface: '#ffffff',
     },
-    shape: 'dark panels, gold hairlines, editorial spacing',
+    shape: 'soft radius cards, indigo hairlines, ink-dark feature bands',
   },
   'brutalist-index': {
     label: 'Brutalist Index',
@@ -112,7 +112,7 @@ export const visualPresets = {
 
 export const visualSystem = {
   productKind: slot4BrandConfig.productKind,
-  recommendedPreset: 'tech-directory',
+  recommendedPreset: 'luxury-atelier',
   radius: {
     sm: '0.75rem',
     md: '1.25rem',
